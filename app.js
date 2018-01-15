@@ -49,7 +49,17 @@
             quantity: 10
         }
 
-        var buyItems = [item1, item2, item3];
+        var item4 = {
+            name: 'Cookies',
+            quantity: 10
+        }
+
+        var item5 = {
+            name: 'Cookies',
+            quantity: 10
+        }
+
+        var buyItems = [item1, item2, item3, item4, item5];
         var boughtItems = [];
 
         service.changeItemStatus = function (index) {
